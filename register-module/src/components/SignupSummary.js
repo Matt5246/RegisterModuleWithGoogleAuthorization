@@ -1,6 +1,5 @@
 import React from 'react';
-import { Modal } from 'react-bootstrap';
-import { Form, Card, Button, Alert } from 'react-bootstrap';
+import { Form, Card, Button } from 'react-bootstrap';
 export default function SignupSummary({data, show, handleClose, handleConfirm, error}) {
   const {email, nip, phone, role} = data;
   function handleSubmit(e){

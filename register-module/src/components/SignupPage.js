@@ -13,7 +13,6 @@ export default function SignupPage() {
   const [error, setError] = useState('');
   const navigate = useNavigate();
   const {signup, currentUser} = useAuth();
-  const [taskData, setTaskData] = React.useState({});
   
   React.useEffect(() => {
     async function fetchData() {
